@@ -23,34 +23,3 @@ public class Main {
 	}
 
 }
-
-
-/* Minha louca resolução - mas funciona
-int cont = 0;
-int soma = 0;
-int X = sc.nextInt();
-
-while (X != 0) {
-	if (X % 2 == 0) {
-		soma = X;
-		cont = 1;
-		while (cont <= 4) {
-			X = X + 2;
-			soma += X;
-			cont++;
-		}
-		System.out.println(soma);
-	} else {
-		cont = 1;
-		soma = X + 1;
-		X = X + 1;
-		while (cont <= 4) {
-			X = X + 2;
-			soma += X;
-			cont++;
-		}
-		System.out.println(soma);
-	}
-	X = sc.nextInt();
-}
-*/
